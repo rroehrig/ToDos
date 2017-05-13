@@ -1,0 +1,77 @@
+{
+  "plugins": [
+  ],
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".ios.js", ".android.js"]
+      }
+    }
+  },
+  "rules": {
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "never",
+        "exports": "always-multiline",
+        "functions": "always-multiline"
+      }
+    ],
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [
+          ".jsx",
+          ".js"
+        ]
+      }
+    ],
+    "react/jsx-indent-props": [
+      "error",
+      4
+    ],
+    "max-len": [
+      2,
+      160,
+      4
+    ],
+    "react/jsx-indent": [
+      "error",
+      4
+    ],
+    "import/prefer-default-export": 0,
+    "indent": [
+      "error",
+      4,
+      {
+        "SwitchCase": 1,
+        "VariableDeclarator": 1,
+        "outerIIFEBody": 1,
+        // MemberExpression: null,
+        // CallExpression: {
+        // parameters: null,
+        // },
+        "FunctionDeclaration": {
+          "parameters": 1,
+          "body": 1
+        },
+        "FunctionExpression": {
+          "parameters": 1,
+          "body": 1
+        }
+      }
+    ]
+  },
+  "env": {
+    "jest": true,
+    "jasmine": true
+  },
+  "globals": {
+    "__DEV__": true,
+    "fetch": true
+  }
+}

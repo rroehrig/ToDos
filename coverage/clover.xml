@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1494598879932" clover="3.2.0">
+  <project timestamp="1494598879932" name="All files">
+    <metrics statements="65" coveredstatements="46" conditionals="14" coveredconditionals="4" methods="28" coveredmethods="14" elements="107" coveredelements="64" complexity="0" loc="65" ncloc="65" packages="6" files="10" classes="10">
+      <package name="ReactNativeReduxSeed">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+        <file name="index.android.js" path="C:\Users\Rknecht\Desktop\Vortrag\ReactNativeReduxSeed\index.android.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+        </file>
+        <file name="index.ios.js" path="C:\Users\Rknecht\Desktop\Vortrag\ReactNativeReduxSeed\index.ios.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="ReactNativeReduxSeed.app">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <file name="app.js" path="C:\Users\Rknecht\Desktop\Vortrag\ReactNativeReduxSeed\app\app.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="11" count="2" type="stmt"/>
+          <line num="13" count="2" type="stmt"/>
+          <line num="18" count="2" type="stmt"/>
+          <line num="65" count="2" type="stmt"/>
+          <line num="66" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="ReactNativeReduxSeed.app.components.to-do">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <file name="to-do.js" path="C:\Users\Rknecht\Desktop\Vortrag\ReactNativeReduxSeed\app\components\to-do\to-do.js">
+          <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="4" count="4" type="stmt"/>
+          <line num="22" count="4" type="stmt"/>
+          <line num="23" count="5" type="stmt"/>
+          <line num="32" count="4" type="stmt"/>
+        </file>
+      </package>
+      <package name="ReactNativeReduxSeed.app.components.to-do-input">
+        <metrics statements="15" coveredstatements="10" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="4"/>
+        <file name="to-do-input-container.js" path="C:\Users\Rknecht\Desktop\Vortrag\ReactNativeReduxSeed\app\components\to-do-input\to-do-input-container.js">
+          <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="7" count="2" type="stmt"/>
+          <line num="8" count="2" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="14" count="2" type="stmt"/>
+        </file>
+        <file name="to-do-input.js" path="C:\Users\Rknecht\Desktop\Vortrag\ReactNativeReduxSeed\app\components\to-do-input\to-do-input.js">
+          <metrics statements="10" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="2"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="38" count="2" type="stmt"/>
+          <line num="39" count="2" type="stmt"/>
+          <line num="45" count="2" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="47" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="51" count="2" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="67" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="ReactNativeReduxSeed.app.components.to-do-list">
+        <metrics statements="16" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="5"/>
+        <file name="to-do-list-container.js" path="C:\Users\Rknecht\Desktop\Vortrag\ReactNativeReduxSeed\app\components\to-do-list\to-do-list-container.js">
+          <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="9" count="2" type="stmt"/>
+          <line num="10" count="2" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="16" count="2" type="stmt"/>
+        </file>
+        <file name="to-do-list.js" path="C:\Users\Rknecht\Desktop\Vortrag\ReactNativeReduxSeed\app\components\to-do-list\to-do-list.js">
+          <metrics statements="11" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="3"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="6" count="3" type="stmt"/>
+          <line num="7" count="3" type="stmt"/>
+          <line num="9" count="3" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="12" count="3" type="stmt"/>
+          <line num="13" count="2" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="22" count="3" type="stmt"/>
+          <line num="24" count="2" type="stmt"/>
+          <line num="28" count="3" type="stmt"/>
+        </file>
+      </package>
+      <package name="ReactNativeReduxSeed.app.modules">
+        <metrics statements="21" coveredstatements="10" conditionals="10" coveredconditionals="2" methods="5" coveredmethods="1"/>
+        <file name="index.js" path="C:\Users\Rknecht\Desktop\Vortrag\ReactNativeReduxSeed\app\modules\index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+        <file name="to-dos.js" path="C:\Users\Rknecht\Desktop\Vortrag\ReactNativeReduxSeed\app\modules\to-dos.js">
+          <metrics statements="21" coveredstatements="10" conditionals="10" coveredconditionals="2" methods="5" coveredmethods="1"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="29" count="2" type="stmt"/>
+          <line num="35" count="2" type="stmt"/>
+          <line num="36" count="6" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="47" count="6" type="stmt"/>
+          <line num="54" count="2" type="stmt"/>
+          <line num="55" count="2" type="stmt"/>
+          <line num="56" count="0" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="64" count="2" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
