@@ -18,7 +18,7 @@ describe('ToDosReducer', () => {
         const expectedState = [undoneToDo];
         expect(ToDosReducer(initialState, action)).toEqual(expectedState);
     });
-    it('toggles correctly a undone ToDo', () => {
+    it('toggles correctly an undone ToDo', () => {
         const initialState = [undoneToDo];
         const action = toggleTodo(2);
         const expectedState = [doneToDo];
