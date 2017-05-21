@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
 
     headertext: {
         fontSize: 32,
-        fontFamily: 'bold',
+        fontWeight: 'bold',
         textAlign: 'center',
         margin: 10,
     },
